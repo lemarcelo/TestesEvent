@@ -13,17 +13,18 @@ namespace TestesEvent.ViewModel
             get;
             set;
         }
+        int var1 = 0;
+        int var2 = 70;
 
 
         public Pagina1ViewModel()
         {
             AcessarPagina2 = new Command(NavegarPagina2);
-
+            
         }
 
         private void NavegarPagina2(object obj)
         {
-            App.Current.MainPage.DisplayAlert("","","");
 
         }
     }

@@ -10,7 +10,7 @@
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" >
             <Label Text="Esta é a Pagina 1" />
 
-            <Button Text="Acessar a página 2" Command="{Binding AcessarPagina2}" />
+            <Button x:Name="btnPagina2" Text="Acessar a página 2" Clicked="btnPagina2_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
