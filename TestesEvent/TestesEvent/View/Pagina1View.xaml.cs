@@ -16,7 +16,7 @@ namespace TestesEvent.View
         public Pagina1View()
         {
             InitializeComponent();
-            BindingContext = new ViewModel.Pagina1ViewModel();
+            //BindingContext = new ViewModel.Pagina1ViewModel();
             EventosControles();
         }
         private void EventosControles()

@@ -17,11 +17,8 @@ namespace TestesEvent.View
         public Pagina2View()
         {
             InitializeComponent();
-            BindingContext = new ViewModel.Pagina2ViewModel();
+            //BindingContext = new ViewModel.Pagina2ViewModel();
             PrimeiroEvento?.Invoke(this, "testando");
-
         }
-
-        
     }
 }

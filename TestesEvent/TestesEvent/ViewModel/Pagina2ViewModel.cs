@@ -7,7 +7,10 @@ namespace TestesEvent.ViewModel
 {
     public class Pagina2ViewModel
     {
+        public Pagina2ViewModel()
+        {
 
+        }
     }
 
 }
