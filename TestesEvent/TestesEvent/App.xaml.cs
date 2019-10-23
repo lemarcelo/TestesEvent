@@ -10,7 +10,7 @@ namespace TestesEvent
         {
             InitializeComponent();
 
-            MainPage = new TestesEvent.View.Pagina1View();
+            MainPage = new NavigationPage(new TestesEvent.View.Pagina1View());
         }
 
         protected override void OnStart()
