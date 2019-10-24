@@ -9,7 +9,7 @@
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" >
             <Label Text="Esta é a Pagina 2" />
 
-            <Button Text="Acessar a página 1" Command="{Binding VoltarPagina1}" />
+            <Button Text="Acessar a página 1" Clicked="Button_Clicked" />
 
         </StackLayout>
     </ContentPage.Content>

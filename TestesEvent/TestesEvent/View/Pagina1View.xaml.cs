@@ -22,18 +22,15 @@ namespace TestesEvent.View
         private void EventosControles()
         {
             page.PrimeiroEvento += OnClick;
-
         }
 
         private void OnClick(object sender, string e)
         {
-            App.Current.MainPage.DisplayAlert("","Botão Clicado com meu Evento","Ok");
+            App.Current.MainPage.DisplayAlert("", "Botão clicado", "Ok");
         }
-
 
         private void btnPagina2_Clicked(object sender, EventArgs e)
         {
-
             App.Current.MainPage.Navigation.PushAsync(page);
         }
 

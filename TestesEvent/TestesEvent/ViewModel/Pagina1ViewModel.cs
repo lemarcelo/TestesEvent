@@ -8,24 +8,15 @@ namespace TestesEvent.ViewModel
 {
     public class Pagina1ViewModel
     {
-        Command AcessarPagina2
-        {
-            get;
-            set;
-        }
-        int var1 = 0;
-        int var2 = 70;
-
+        Pagina2ViewModel page = new Pagina2ViewModel();
 
         public Pagina1ViewModel()
         {
-            AcessarPagina2 = new Command(NavegarPagina2);
-            
+            EventosControles();
         }
-
-        private void NavegarPagina2(object obj)
+        private void EventosControles()
         {
-
+            page.PrimeiroEvento += OnClick;
         }
     }
 }
